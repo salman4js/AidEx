@@ -17,7 +17,7 @@ const AuthRoute = require('./routes/AuthRoute')
 
 const Datab = mongoose.model("user")
 
-const mongodbURl = "mongodb+srv://Salman:<password_here>@cluster0.netps.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const mongodbURl = "mongodb+srv://<user_name>:<password_here>@cluster0.netps.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 mongoose.connect(mongodbURl,{
     useNewUrlParser : true,
