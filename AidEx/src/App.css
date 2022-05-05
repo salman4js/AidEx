@@ -1,0 +1,165 @@
+:root{
+  --primary-blue : #1E90FF;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.nav-link {
+  margin : 2rem;
+}
+
+.container1 {
+  position : relative;
+  background: url(Sunset.png);
+  background-size: cover;
+  background-position : center;
+}
+
+.image-js{
+  width: 50px;
+  height: 50px;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  margin: -25px 0 0 -25px; 
+}
+
+.date-picker {
+  color : red;
+  width : '100%'
+}
+
+.containernew{
+  background: rgb(2,0,36);
+  background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.screen-wrapper {
+  height : 100vh;
+  background-image : url("Sunset.png");
+}
+
+.container2{
+  height : 100vh;
+  background: rgb(2,0,36);
+  background: linear-gradient(to right, #3399ff 0%, #cc0066 100%);
+}
+
+.header-landing {
+  margin-top: 6rem;
+  color : orange;
+  font-weight : 700;
+  font-size : 4rem;
+  font-family :Georgia, 'Times New Roman', Times, serif;
+}
+
+.content-landing{
+  color : white;
+  font-size : 1.4rem;
+  font-style : italic;
+  font-family :Georgia, 'Times New Roman', Times, serif;
+}
+
+.hola{
+  font-size : 2rem;
+}
+
+
+.navbar-nav > li > a:hover {
+  transform: scale(1);
+  border-top : 0.1875rem solid var(--primary-blue)
+}
+
+.buttons {
+  margin-right : 2rem;
+  margin-top: 6rem;
+}
+
+.forcare{
+  font-size : 1.7rem;
+  text-decoration: underline;
+}
+
+#usermailform{
+  display : none;
+}
+
+
+
+.checked {
+
+  color : orange;
+}
+
+.header {
+  margin-top : 6rem;
+}
+
+.spanlanding{
+  font-size : 1.9rem;
+  padding-right : 8rem;
+}
+
+.signinlink {
+  color : orange;
+}
+
+.signinalignment{
+  margin-top : 8rem;
+}
+
+.controllers {
+  margin-top : 10rem;
+}
+
+.post-wrapper {
+  margin-top : 6rem;
+}
+
+.query {
+  font-size : 2rem;
+}
+
+.querySearch {
+  margin-top : 6rem;
+}

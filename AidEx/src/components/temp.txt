@@ -1,0 +1,27 @@
+
+const credentials = {
+            rating: rating,
+            id: props.usertoken
+        }
+        axios.post("http://localhost:3002/firstpage", credentials)
+            .then(res => console.log(res.data))
+        console.log(props.usertoken)
+
+// Modals
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel"> User's Feedback </h5>
+                                                </div>
+                                                <div class="modal-body">
+                                                    Rate this care-taker on the scale of 1 -10
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="Rate your experience with this user" name="rating" value={rating} onChange={((e) => setRating(e.target.value))} />
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onClick={saveChanges}> Rate </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
